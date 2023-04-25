@@ -39,7 +39,6 @@ const generateLetterButtons = () => {
   const letterButtons = document.querySelector('#letter-buttons');
 
   for (const letter of ALPHABET.split("")) {
-    console.log(letter)
     const button = document.createElement("button");
     button.textContent = letter;
     letterButtons.insertAdjacentElement('beforeend', button);
